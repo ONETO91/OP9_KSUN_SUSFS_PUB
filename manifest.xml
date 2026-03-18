@@ -34,5 +34,5 @@
   <project path="kernel_patches" name="TheWildJames/kernel_patches" remote="github" revision="main" clone-depth="1" />
   
   <!-- susfs4ksu -->
-  <project path="susfs4ksu" name="simonpunk/susfs4ksu" remote="gitlab" revision="kernel-5.4" clone-depth="1" />
+  <project path="susfs4ksu" name="ShirkNeko/susfs4ksu" remote="github" revision="kernel-5.4" clone-depth="1" />
 </manifest>
