@@ -73,7 +73,7 @@ jobs:
           mkdir -p "${{ env.CONFIG }}/git-repo"
           curl -sSL https://storage.googleapis.com/git-repo-downloads/repo > "${{ env.CONFIG }}/git-repo/repo"
           chmod a+rx "${{ env.CONFIG }}/git-repo/repo"
-          echo "REPO=${{ github.workspace }}/${{ env.CONFIG }}/git-repo/repo" >> $GITHUB_ENV
+          echo "REPO=https://mirrors.tuna.tsinghua.edu.cn/git-repo/repo" >> $GITHUB_ENV
 
       # - name: Fetch Clang Toolchain
       #   run: |
