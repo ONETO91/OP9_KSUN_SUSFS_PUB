@@ -102,7 +102,7 @@ jobs:
           
           # Initialize and sync kernel source
           echo "Initializing and syncing kernel source..."
-          $REPO init -u https://github.com/ONETO91/OP9_KSUN_SUSFS_PUB.git -b oos-14-op9-pro -m manifest.xml --repo-rev=v2.16 --depth=1 --no-clone-bundle --no-tags
+          $REPO init -u https://github.com/ONETO91/OP9_KSUN_SUSFS_PUB.git -b oos-14-op9-pro -m manifest.xml --repo-rev=main --depth=1 --no-clone-bundle --no-tags
           
           # Sync repo and apply patches
           $REPO --trace sync -c --no-clone-bundle --no-tags --optimized-fetch -j$(nproc --all) --fail-fast
